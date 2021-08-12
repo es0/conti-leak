@@ -1,0 +1,2 @@
+https://xss.is/threads/53632/ - it might be useful
+ # * working script for creating a VPS server for penetration testing from A to Z

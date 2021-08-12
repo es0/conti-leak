@@ -1,0 +1,18 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ HOW TO MAKE A PING +++++++++++++++++++++++++++++++++++++++++++++++++++++
+1. CREATE A TXT FILE ON THE DESKTOP WITH THE NAME domains.txt
+2. DO YOU HAVE SORTED OR JUST LOCAL COMPUTER NAMES, WE ENTER THEM IN THIS FILE
+3. WE FILL IT ON THE CAR (C:\ProgramData\) FROM WHICH THE PING FILE WILL GO domains.txt and p. bat
+4. RUN p.bat USING THE shell COMMAND
+5. AFTER THE PING, DOWNLOAD THE FILE res.txt
+
+----------------------------------- HOW TO QUICKLY GET THE IP IN ITS PURE FORM FROM UNPACKED MACHINES ----------------------------------
+1. YOU HAVE A FI res.txt, OPEN IT IN NOTEPAD++
+2. PRESS CTRL+F AND ENTER TTL IN THE SEARCH BAR
+3. CLICK FIND ALL IN CURRENT DOCUMENT YOU WILL SEE A WINDOW WITH THE IP AT THE BOTTOM
+4. GO TO THE WEBSITE en.toolpage.org/tool/ipv4-extractor THERE WE INSERT EVERYTHING THAT TURNED OUT AND GET CLEAN IP
+
+
+A SITE FOR BRUTALIZING SIMPLE HASHES
+
+-----------> hashes.com
+=================================================================================================================================

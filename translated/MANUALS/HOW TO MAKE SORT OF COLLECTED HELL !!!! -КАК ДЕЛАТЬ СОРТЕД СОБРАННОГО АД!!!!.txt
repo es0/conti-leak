@@ -1,0 +1,22 @@
+How to sort the collected AD from the network
+1)Download FileZilla
+
+
+2)Download Putty,run Putty through the tor
+
+Come here torproject.org/download/tor/
+
+Shakes THE ATTENTION OF the Expert Bundle
+
+Unzip it, go to the Tor directory and run tor.exe
+
+After a few seconds, it will reach the inscription 100% Done
+
+In the Putty settings, go to the proxy, put sox5, IP 127.0.0.1 port 9050
+
+3)We go through the filezilla to the server > go to the "Script" directory - we put the AD files next to the script
+
+4) Go to Putty, go to the server, go to the directory where the script is located, give the command
+. /script.sh
+
+5) That's it, go back to Filezilla and pick up our variety of units. After yourself, be sure to delete the AD files and the sorted folder, if the sorted folder is not deleted, just change it to any name
